@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.filter-item-button {
+  background-color: transparent;
+  border: none;
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-weight: 550;
+  font-size: 15px;
+  cursor: pointer;
+  outline: none;
+}
+
+.active-tab {
+  color: #0284c7;
+  border: solid 1px #0284c7;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}

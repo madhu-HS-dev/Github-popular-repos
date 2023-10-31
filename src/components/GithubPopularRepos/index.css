@@ -1,0 +1,66 @@
+/* Write your CSS here */
+.popular-repo-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.popular-repo-heading {
+  color: #0f172a;
+  font-family: Lobster;
+  font-size: 40px;
+}
+
+.filter-items-list {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+
+@media (min-width: 430px) {
+  .filter-items-list {
+    width: 50%;
+  }
+}
+
+@media (min-width: 568px) {
+  .filter-items-list {
+    width: 40%;
+  }
+}
+
+@media (min-width: 768px) {
+  .filter-items-list {
+    width: 25%;
+  }
+}
+
+.repository-items-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.failure-view-image {
+  width: 50%;
+}
+
+.failure-view-heading {
+  color: #0f172a;
+  font-family: 'Lobster';
+}
+
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
